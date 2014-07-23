@@ -1,0 +1,12 @@
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\obj\Release\Qbus.Communication_v6.0.1.csprojResolveAssemblyReference.cache
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\Qbus.Communication.dll
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\Qbus.Communication.pdb
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\mscorlib.dll
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\nl\mscorlib.resources.dll
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\normidna.nlp
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\normnfc.nlp
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\normnfd.nlp
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\normnfkc.nlp
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\bin\Release\normnfkd.nlp
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\obj\Release\Qbus.Communication.dll
+C:\Users\Stijn\Documents\Projects\QBusCommunication\Qbus.Communication_v6.0.1\obj\Release\Qbus.Communication.pdb
