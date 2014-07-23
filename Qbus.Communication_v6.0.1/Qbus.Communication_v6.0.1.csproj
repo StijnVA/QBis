@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Stijn\Downloads\Qbus.Communication_v6.0.1.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1000CFC5-4B8E-4CF4-8228-E163BF664756}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Qbus.Communication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Qbus.Communication</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ByteArrayUtils.cs" />
+    <Compile Include="CommunicationEncryption.cs" />
+    <Compile Include="ConnectionHelper.cs" />
+    <Compile Include="ConnectionManager.cs" />
+    <Compile Include="TEXTS.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="ControllerCommunication.cs" />
+    <Compile Include="CommandEventArgs.cs" />
+    <Compile Include="ControllerManager.cs" />
+    <Compile Include="GetModulesAsyncResult.cs" />
+    <Compile Include="ModuleManager.cs" />
+    <Compile Include="NextTextCommand.cs" />
+    <Compile Include="GetPresetAsyncResult.cs" />
+    <Compile Include="PresetManager.cs" />
+    <Compile Include="PresetAddressMode.cs" />
+    <Compile Include="SerialCommunication.cs" />
+    <Compile Include="ReceivedDataHandler.cs" />
+    <Compile Include="ReceivedData.cs" />
+    <Compile Include="ProtocolSender.cs" />
+    <Compile Include="TCP_STATUS.cs" />
+    <Compile Include="TcpCommunication.cs" />
+    <Compile Include="TcpServerController.cs" />
+    <Compile Include="TcpServer.cs" />
+    <Compile Include="WARNING_TYPES.cs" />
+    <Compile Include="Protocol\Command.cs" />
+    <Compile Include="Protocol\Module.cs" />
+    <Compile Include="Protocol\PresetObject.cs" />
+    <Compile Include="Protocol\ProtocolParser.cs" />
+    <Compile Include="Protocol\Commands\AddressStatus.cs" />
+    <Compile Include="Protocol\Commands\AddressText.cs" />
+    <Compile Include="Protocol\Commands\Analogica.cs" />
+    <Compile Include="Protocol\Commands\Clock.cs" />
+    <Compile Include="Protocol\Commands\ControllerOptions.cs" />
+    <Compile Include="Protocol\Commands\ControllerParameters.cs" />
+    <Compile Include="Protocol\Commands\ConversionTable.cs" />
+    <Compile Include="Protocol\Commands\CopyCtdToSD.cs" />
+    <Compile Include="Protocol\Commands\Logica.cs" />
+    <Compile Include="Protocol\Commands\PresetClear.cs" />
+    <Compile Include="Protocol\Commands\Echo.cs" />
+    <Compile Include="Protocol\Commands\EventLogs.cs" />
+    <Compile Include="Protocol\Commands\EventRead.cs" />
+    <Compile Include="Protocol\Commands\EventStatus.cs" />
+    <Compile Include="Protocol\Commands\FatData.cs" />
+    <Compile Include="Protocol\Commands\ParametersAdressen.cs" />
+    <Compile Include="Protocol\Commands\QBUS_COMMANDS.cs" />
+    <Compile Include="Protocol\Commands\ReadModeAddress.cs" />
+    <Compile Include="Protocol\Commands\AddressMode.cs" />
+    <Compile Include="Protocol\Commands\ReadPresetParametersText.cs" />
+    <Compile Include="Protocol\Commands\SDModule.cs" />
+    <Compile Include="Protocol\Commands\Version.cs" />
+    <Compile Include="Protocol\Commands\WorkText.cs" />
+    <Compile Include="Protocol\Commands\ZonOpOnder.cs" />
+    <Compile Include="Protocol\Commands\XPort\EncryptionKey.cs" />
+    <Compile Include="Protocol\Commands\XPort\Error.cs" />
+    <Compile Include="Protocol\Commands\XPort\ERROR_TYPES.cs" />
+    <Compile Include="Protocol\Commands\XPort\Login.cs" />
+    <Compile Include="Protocol\Commands\XPort\StringData.cs" />
+    <Compile Include="Protocol\Commands\XPort\XPORT_COMMANDS.cs" />
+    <Compile Include="Protocol\Downloaders\IDownloader.cs" />
+    <Compile Include="Protocol\Downloaders\EventDownloader.cs" />
+    <Compile Include="Protocol\Downloaders\DOWNLOAD_STATUS.cs" />
+    <Compile Include="Protocol\Downloaders\Log.cs" />
+    <Compile Include="Protocol\Downloaders\LogHelper.cs" />
+    <Compile Include="Protocol\Downloaders\TextDownloader.cs" />
+    <Compile Include="Protocol\Modules\Audio.cs" />
+    <Compile Include="Protocol\Modules\Clc.cs" />
+    <Compile Include="Protocol\Modules\CO2.cs" />
+    <Compile Include="Protocol\Modules\CO2Temperature.cs" />
+    <Compile Include="Protocol\Modules\Dimmer.cs" />
+    <Compile Include="Protocol\Modules\Interval.cs" />
+    <Compile Include="Protocol\Modules\Mono.cs" />
+    <Compile Include="Protocol\Modules\Pid.cs" />
+    <Compile Include="Protocol\Modules\Preset.cs" />
+    <Compile Include="Protocol\Modules\Renson.cs" />
+    <Compile Include="Protocol\Modules\Rol02P.cs" />
+    <Compile Include="Protocol\Modules\RollingShutter.cs" />
+    <Compile Include="Protocol\Modules\Sequence.cs" />
+    <Compile Include="Protocol\Modules\StartStop.cs" />
+    <Compile Include="Protocol\Modules\Thermo.cs" />
+    <Compile Include="Protocol\Modules\Timer1.cs" />
+    <Compile Include="Protocol\Modules\Timer2.cs" />
+    <Compile Include="Protocol\Modules\Timer3.cs" />
+    <Compile Include="Protocol\Modules\Timer4.cs" />
+    <Compile Include="Protocol\Modules\Timer5.cs" />
+    <Compile Include="Protocol\Modules\Toggle.cs" />
+    <Compile Include="SDK\SDKServiceSoap.cs" />
+    <Compile Include="SDK\GetActivationStringRequest.cs" />
+    <Compile Include="SDK\GetActivationStringRequestBody.cs" />
+    <Compile Include="SDK\GetActivationStringResponse.cs" />
+    <Compile Include="SDK\GetActivationStringResponseBody.cs" />
+    <Compile Include="SDK\GetDeactivationStringRequest.cs" />
+    <Compile Include="SDK\GetDeactivationStringRequestBody.cs" />
+    <Compile Include="SDK\GetDeactivationStringResponse.cs" />
+    <Compile Include="SDK\GetDeactivationStringResponseBody.cs" />
+    <Compile Include="SDK\SDKServiceSoapChannel.cs" />
+    <Compile Include="SDK\GetActivationStringCompletedEventArgs.cs" />
+    <Compile Include="SDK\GetDeactivationStringCompletedEventArgs.cs" />
+    <Compile Include="SDK\SDKServiceSoapClient.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="MonoUtils.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
