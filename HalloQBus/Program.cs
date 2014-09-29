@@ -12,7 +12,7 @@ namespace HalloQBus
 			
 			controller.Address = "192.168.1.102";
 			controller.Login = "admin";
-			controller.Password = "Pixy";
+			controller.Password = "";
 
 			ConnectionManager.Instance.CommandReceived += (object sender, CommandEventArgs e) => {
 				Console.WriteLine ("Command Received: " + e.Command.ToString ());
