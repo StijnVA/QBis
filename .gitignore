@@ -5,4 +5,5 @@
 *.dll
 *.exe
 *.o
+*.mdb
 *.so

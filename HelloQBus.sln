@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloQBus", "HalloQBus\Hall
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qbus.Communication_v6.0.1", "Qbus.Communication_v6.0.1\Qbus.Communication_v6.0.1.csproj", "{1000CFC5-4B8E-4CF4-8228-E163BF664756}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloPipes", "HelloPipes\HelloPipes.csproj", "{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,8 +21,12 @@ Global
 		{7A64CC47-4209-4566-BB88-7D931B7F5216}.Debug|x86.Build.0 = Debug|x86
 		{7A64CC47-4209-4566-BB88-7D931B7F5216}.Release|x86.ActiveCfg = Release|x86
 		{7A64CC47-4209-4566-BB88-7D931B7F5216}.Release|x86.Build.0 = Release|x86
+		{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}.Debug|x86.ActiveCfg = Debug|x86
+		{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}.Debug|x86.Build.0 = Debug|x86
+		{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}.Release|x86.ActiveCfg = Release|x86
+		{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = HalloQBus\HalloQBus.csproj
+		StartupItem = HelloPipes\HelloPipes.csproj
 	EndGlobalSection
 EndGlobal
