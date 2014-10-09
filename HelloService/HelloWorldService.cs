@@ -19,8 +19,6 @@ public interface IHelloWorldService
 	           , RequestFormat=WebMessageFormat.Json
 	           )]
 	object SayHello(string name, string status);
-
-
 }
 
 public class HelloWorldService : IHelloWorldService
@@ -28,7 +26,6 @@ public class HelloWorldService : IHelloWorldService
 	private string lastSubmittedName;
 
 	public string HelloWorld(){
-		Console.WriteLine ("Hello GET world.");
 		return "Hello, " + lastSubmittedName ;
 	}
 
@@ -36,8 +33,6 @@ public class HelloWorldService : IHelloWorldService
 	{
 		WebOperationContext.Current.OutgoingResponse.StatusCode = System.Net.HttpStatusCode.Redirect;
 		WebOperationContext.Current.OutgoingResponse.Headers.Add ("Location", name);
-
-		Console.WriteLine ("Hello POST world.");
 
 		Console.WriteLine ("name: " + name);
 		Console.WriteLine ("status: " + status);
