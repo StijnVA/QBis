@@ -21,6 +21,25 @@ public interface IHelloWorldService
 	object SayHello(string name, string status);
 }
 
+
+
+[ServiceContract]
+public interface IHelloWorldService
+{
+	[OperationContract]
+	[(Method="GET", UriTemplate = "{name}" , ResponseFormat = WebMessageFormat.Json  )]
+	string HelloWorld ();
+
+	[OperationContract]
+	[WebInvoke(Method="POST"
+	           , UriTemplate = "{name}" 
+	           , BodyStyle = WebMessageBodyStyle.WrappedRequest
+	           , ResponseFormat = WebMessageFormat.Json
+	           , RequestFormat=WebMessageFormat.Json
+	           )]
+	object SayHello(string name, string status);
+}
+
 public class HelloWorldService : IHelloWorldService
 {
 	private string lastSubmittedName;

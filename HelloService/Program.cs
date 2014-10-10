@@ -41,6 +41,7 @@ namespace HelloService
 				Console.WriteLine("The service is ready at {0}", baseAddress);
 				// Console.WriteLine("Press <Enter> to stop the service.");
 
+
 				Console.ReadLine ();
 				// Close the ServiceHost.
 				Console.WriteLine ("Host is shutting down...");
