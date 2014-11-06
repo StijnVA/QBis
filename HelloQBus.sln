@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService", "HelloServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipesClient", "PipesClient\PipesClient.csproj", "{A4A0A50C-316F-41BD-9840-212882FC0F27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSockets", "HelloSockets\HelloSockets.csproj", "{92EB8A4B-CBF0-47F6-83BD-299E70115B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SslClient", "SslClient\SslClient.csproj", "{AFECACBB-B707-4AF0-9ABA-10E3EB4D8F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X509", "X509\X509.csproj", "{C464247D-67CF-4CC9-96F2-A5B4E34E7FFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -29,16 +35,28 @@ Global
 		{7A64CC47-4209-4566-BB88-7D931B7F5216}.Debug|x86.Build.0 = Debug|x86
 		{7A64CC47-4209-4566-BB88-7D931B7F5216}.Release|x86.ActiveCfg = Release|x86
 		{7A64CC47-4209-4566-BB88-7D931B7F5216}.Release|x86.Build.0 = Release|x86
+		{92EB8A4B-CBF0-47F6-83BD-299E70115B63}.Debug|x86.ActiveCfg = Debug|x86
+		{92EB8A4B-CBF0-47F6-83BD-299E70115B63}.Debug|x86.Build.0 = Debug|x86
+		{92EB8A4B-CBF0-47F6-83BD-299E70115B63}.Release|x86.ActiveCfg = Release|x86
+		{92EB8A4B-CBF0-47F6-83BD-299E70115B63}.Release|x86.Build.0 = Release|x86
 		{A4A0A50C-316F-41BD-9840-212882FC0F27}.Debug|x86.ActiveCfg = Debug|x86
 		{A4A0A50C-316F-41BD-9840-212882FC0F27}.Debug|x86.Build.0 = Debug|x86
 		{A4A0A50C-316F-41BD-9840-212882FC0F27}.Release|x86.ActiveCfg = Release|x86
 		{A4A0A50C-316F-41BD-9840-212882FC0F27}.Release|x86.Build.0 = Release|x86
+		{AFECACBB-B707-4AF0-9ABA-10E3EB4D8F52}.Debug|x86.ActiveCfg = Debug|x86
+		{AFECACBB-B707-4AF0-9ABA-10E3EB4D8F52}.Debug|x86.Build.0 = Debug|x86
+		{AFECACBB-B707-4AF0-9ABA-10E3EB4D8F52}.Release|x86.ActiveCfg = Release|x86
+		{AFECACBB-B707-4AF0-9ABA-10E3EB4D8F52}.Release|x86.Build.0 = Release|x86
+		{C464247D-67CF-4CC9-96F2-A5B4E34E7FFA}.Debug|x86.ActiveCfg = Debug|x86
+		{C464247D-67CF-4CC9-96F2-A5B4E34E7FFA}.Debug|x86.Build.0 = Debug|x86
+		{C464247D-67CF-4CC9-96F2-A5B4E34E7FFA}.Release|x86.ActiveCfg = Release|x86
+		{C464247D-67CF-4CC9-96F2-A5B4E34E7FFA}.Release|x86.Build.0 = Release|x86
 		{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}.Debug|x86.ActiveCfg = Debug|x86
 		{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}.Debug|x86.Build.0 = Debug|x86
 		{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}.Release|x86.ActiveCfg = Release|x86
 		{DA0124AC-6F7E-478B-8197-3A5D49E31BA1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = HelloPipes\HelloPipes.csproj
+		StartupItem = HelloSockets\HelloSockets.csproj
 	EndGlobalSection
 EndGlobal
